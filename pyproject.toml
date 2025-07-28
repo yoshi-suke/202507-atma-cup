@@ -4,9 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
+packages = [{ include = "202507_atma_cup" }]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pandas = "^2.3.1"
 matplotlib = "^3.10.3"
 seaborn = "^0.13.2"
